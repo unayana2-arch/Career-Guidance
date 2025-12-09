@@ -1,5 +1,5 @@
 
-
+import streamlit as st
 # Define the unique values for categorical features from your dataset
 # These should ideally come from the training data to ensure consistency
 # For demonstration, I'm inferring some based on previous outputs.
