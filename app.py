@@ -1,11 +1,4 @@
 
-import streamlit as st
-import pandas as pd
-import joblib
-
-# Load the trained model pipeline
-# Make sure 'career_guidance_model_pipeline.joblib' is in the same directory as app.py
-model_pipeline = joblib.load('career_guidance_model_pipeline.joblib')
 
 # Define the unique values for categorical features from your dataset
 # These should ideally come from the training data to ensure consistency
