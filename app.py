@@ -19,7 +19,7 @@ st.write('Enter student details to get a career suggestion.')
 def train_model():
     # 1. Load the dataset (replace with your actual path if different)
     try:
-        df = pd.read_csv('/content/student_career_guidance_dataset_1000.csv')
+        df = pd.read_csv('student_career_guidance_dataset_1000.csv')
     except FileNotFoundError:
         st.error("Dataset not found. Please ensure 'student_career_guidance_dataset_1000.csv' is in the same directory.")
         st.stop()
